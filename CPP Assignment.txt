@@ -1,0 +1,360 @@
+1) Write a program to make a class named as Circle. Create two functions in this
+   class getRadius() , getArea().Display area of circle.
+
+2) Write a program to calculate area of rectangle where Rectangle is a class 
+   and getParameters() is a function which reads two parameter length and breadth
+   from user and other function is showArea() which shows area of rectangle.
+
+
+3) Pass two numbers in a member function, if first number is smaller than second 
+   number, then print all numbers between first number and second number in 
+   increasing order.
+   if first number is greater than second number. Print second number to first 
+   number in decreasing order.
+
+4) Take a number from user. If the number is Even , Print all even number below 
+   that number. If number is odd , Print all odd numbers below that.
+
+
+5) Make a function getName() which gets the name of a student from user.one more
+   function as updateName() which changes the name which is previously set by
+   user.
+
+6) Write a program to enter details of 3 students like rollno,name and 
+   marks of 5 subjects in a function getDetails() and make a function
+   getPercentage() which returns percentage of a student and print the
+   student details in showDetails() ,in the following form:-
+   
+   R.N.    Name     Percentage
+   101     Ajay     90%   
+
+   Also print the topper name.
+   
+
+7) Make a function where user enters his date of birth in format (dd/mm/yyyy)
+   and print the age in years.
+
+8) Create two student object and compare their ages and find who is elder.
+
+9) Enter Employee details in a function like name and city. If City of any employee
+   is Mumbai / Bangalore / Delhi then print a message "You live in Metro city"
+   otherwise give a message "You are from a non Metro city".
+
+10) Make a function Calculate() which is doing addition, multiplication, division
+    and subtraction. where addition is performed on two integers. Subtraction is 
+    performed on two floating point numbers. Division is performed on two double
+    values and Multiplication is performed on three values of type float.
+
+
+11) Write a program to make a function which takes two arguments, first argument
+    is name of a person , second argument is city of person. Make city as a 
+    default argument . Value of default argument is "Delhi". Print name and
+    city both.
+
+1) Make a class named as Student where take member variables as student id,
+   student name,books issued , make a default constructor which assigns the number
+   of books to all students at the time of admission.Make a function named as 
+   requestBook() which adds the no of books in the previous one. If for any 
+   student the number of issued book is more than 5 then bokks can not be issued 
+   to that student.
+
+2) Write a program to overload = operator and the operator function should 
+   double value and print it.
+
+3) x = 3 + 4 i
+   y = 4 + 8 i
+   
+   z = x + y = 7+ 12i
+
+
+
+
+
+
+Type of Inheritances 
+
+1) Single Inheritance   -- When one class inherits a single class
+
+
+2) Multilevel   --  When one class inherits a class that is again inherited from other class
+
+
+3) Multiple   -- When one class is inherited from more than one classes
+
+
+4) Hierarchical -- When one class inherits more than one classes
+
+
+5) Hybrid  -- It is the combination of multiple and multilevel inheritance
+
+
+
+1) Make a Class as Student and other class is Activities,Third Class is StudentData which will show the rollno,stream,
+   student name, student age, hobby.
+
+2) Create a class Bonus and one class is Employee. In class Bonus ,Initialize a default bonus of 1000/- .
+   In Employee Class take input as a Employee name, Job duration, and age of employee and salary. 
+   If the job duration is more than 5 years . Give that employee a bonus of 3000/- in his total salary 
+   and print all the details.If job duration is less than 5 years , Give bonus of 1000/- to his salary 
+   and print it. 
+
+3) Create a class Bank. Create its subclasses as SBI, IDBI, ICICI . In Bank class set the default 
+   rate of interest at 4 percent. Class SBI returns the same rate of interest as in Bank Class.
+   IDBI returns the rate of interest at 5 percent and ICICI returns the rate of interest at 6 percent.
+   Display all the details as Bank Name and its Rate of interest. 
+
+
+1) Make a class sports.
+   create subclasses as Cricket, Football, Tennis
+   In sports class make a function as noOfPlayers() and override this function in all subclasses.
+   Make a function showPlayersCount() in all subclasses and print the no of players in this function.
+
+2) Create a class Bike . Subclasses are pulsor, Splender, Shine
+   Create a pure virtual function as getBikeDetails() which gets the information about bike like
+   Bike name, Bike Color, Bike Average, BikeMaxSpeed, Bike Price. 
+   Make a function as ShowBikeDetails() which shows all the details about Bike.
+
+Write a program to take the no of employees in getDetails() and print their details in a 
+function showEmp(), Make a class Employee.
+
+Output
+
+
+Enter number of employee  .. 4
+
+Enter the details of employee 1 :
+     Emp id
+     name
+     salary
+ 
+Enter the details of employee 2 :
+     Emp id
+     name
+     salary
+
+Enter the details of employee 3 :
+     Emp id
+     name
+     salary
+
+Enter the details of employee 4 :
+     Emp id
+     name
+     salary
+
+details of employee 1 :
+     Emp id
+     name
+     salary
+
+details of employee 2 :
+     Emp id
+     name
+     salary
+
+
+
+  Difference between -> (referential operator) and . (Membership operator) : 
+
+  -> is used to call any member function of the class through the pointer object
+  
+  . is used to call any member function of the class throught the class object
+
+
+
+   Compile Time Polymorphism - 
+
+   1) Static binding  -- pointer concept , base class pointer 
+                         type of pointer 
+
+   
+
+
+   2) Dynamic binding --  pointer concept , base class pointer , virtual 
+                         type of address being assigned to the base pointer
+
+
+   Virtual function -- we can make any base class function as virtual function at the time of definition 
+                       on writing the keyword as virtual. virtual function is made in the base class to
+                       achieve the concept of run time polymorphism.
+
+
+  Abatraction - Process of hiding the unnessesary details.
+
+
+  Abstract Class - which is having a pure virtual function.
+                   we can not create the object of abstract class.
+                   We can inherit the abstract class
+		   We can create the pointer of abstract class
+
+  Pure virtual function - function which is incomplete means it does not have any body
+                          it is assigned a value zero
+                          it is defined using virtual keyword
+
+                          Ex : -  Syntax of pure virtual function
+
+                                virtual void show( )=0;
+
+
+1) Create a class named as Employee.
+   Create function named as getDetails. First name, Last name, age, City , contact
+   Create one function as getFullName() which returns the concatenated name / full name.
+   Create a function which returns the length of name.
+   Create a function which checks if the first name is not empty. If it is empty , print a message
+   "Please enter your first name".
+   
+2) Make a class Email, Take user name and password in a function getLoginData(). 
+   create a function checkUserDetails() , In this function check if email id is "abc@gmail.com" and 
+   password is "abcd1234" then print a message "Welcome abc@gmail.com" 
+   otherwise print "Invalid User Id / Password".
+
+
+3) Write a program to enter details of 3 students like rollno, name and age from keyboard and save the
+   details in a file named as student.txt.
+
+4) Write a program to create two file as Even.txt and odd.txt .
+   In Even.txt , Even numbers between 1 and 100 should be printed.
+   In Odd.txt , Odd numbers between 1 and 100 should be printed.
+
+5) Write a program to print alphabets and its equivalet ASCII code to
+   a file named as Alpha.txt
+
+Stack ---  STL Class
+
+    1) push()
+    2) pop()
+    3) empty()
+    4) top()
+    5) size()
+
+
+Vector  --- STL Class
+
+    1) push_back()
+    2) pop_back()
+    3) insert()
+    4) at()
+    5) begin()
+    6) end()
+    7) size()
+    
+Standard Template Library ( STL )    provided by standard C++
+
+       Library of template classes and functions
+
+       array - not a class
+ 
+       vector
+       stack
+       list  -  linkedlist
+       queue 
+
+  Data Structure - type of data storage
+
+
+  array   - collection of values of similar type 
+
+  structure  - struct - store variety of data
+
+
+
+   underflow   -- if any data structure has no elements and we want to remove elements
+   overflow    -- if we want to add element on data structure and that structure is full
+
+
+  1) Stack class
+  2) Vector class in STL
+                  Iterator - pointer which points to the elements in a vector.
+   		  create array dynamically , we use vector class
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,32 @@
+1) Make a program in which store rollno of 3 students in a set and names of 3 students in a queue and print roll no
+along with name as follows
+     101  abc
+     102  def
+
+2) Make a stack of 3 names where entered name by the user to be searched in the stack . If it exists print message
+as name found otherwise print search not successful.
+
+3) Make a queue in which store names of 3 students and take a name from user and if name exists in the queue print
+the "Search successfull" otherwise print search unsuccessfull.
+
+4) Take a string from user and print the reverse of the string using stack.
+
+5) Make a linkedlist of 3 nodes where numbers are stored , search for the number entered by user. 
+
+6) Program to convert any decimal number to binary number.
+
+7) Write a program to get maximum number from the array.
+
+8) make a program to delete the first node from linked list.
+
+9) Write a program to get the maximum value from the linked list of 3 nodes.
+
+
+create a program which allocates memory dynamically for character array and store 5 charachers in array
+and print it.
+
+create a program which allocates memory dynamically for float array and store marks of 5 students in array
+and print average of it.
+
+
+Write a program to crate an adjacency matrix(3 by 3) using graph , where create edges (0,1),(1,2),(1,1)

@@ -1,0 +1,190 @@
+
+
+a)
+   1) create two files.
+   2) create first file using vi command and write only even nos in it.
+   3) create second file using gedit command and write only odd nos in it.
+   4) join two files together and save the joined content in one file and show the content of the file.
+
+
+
+b)
+   1) create a file student.txt where every record should be stored in following manner:(5 records)
+      Rollno Name Marks
+                             10 Amit 80
+                             11 Amit 90
+   
+   2) create three files as rollno.txt, name.txt, marks.txt.
+   3) Read file student.txt and only rollnos should be copied in rollno.txt.
+      Read file student.txt and only name should be copied in name.txt.
+      Read file student.txt and only marks should be copied in marks.txt.
+
+
+1) Make one directory in /home/Desktop named as 'Main' . Make two more directories in Main, named as
+   A and B. Create a file file1.txt in A and file2.txt in B. Write some content in file1.txt and file2.txt
+   file1.txt shoul be copied in B folder and file2.txt should be copied in A folder.
+
+
+2) Make a file items.doc where write the name of grocery items in any order and sort all the items and 
+   write the sorted items in a file named as sortedItems.txt
+
+
+3) Create a file Myfile.txt on the Desktop and delete read permission from group and others but not from
+   user.
+
+4) Rename the file Myfile.txt to change.txt
+
+
+5) Create a file data.txt Write some contents in it. Search any specific word in the file.
+
+6) Make a directory on the Desktop . In this directory create 2 text files and two doc files.
+   find all files which are text file.
+
+7) Count the no of lines in which Hello world occurs.
+
+8) show last 5 lines of a file.
+
+1. Create a function which takes a parameter as a number and calculates the factorial of that number.
+2. Create a function which checks any number that is even or odd.
+3. Create a function that prints the name and age of 5 students using array.
+4. Create a file where write the code to calculate the cube of a number and execute this file using bc
+5. Write a program to print the table of a given number where table should be printed using a function.
+6. Write a program to find the largest of three numbers in a function where 3 numbers are passed to the 
+   function
+7. Write a program to print the following series .  0 1 1 2 3 5 8 13 (fibbonnacii)
+
+
+   -rwxrwxrwx    User   -----    r w x
+                 Group  -----    r w x
+                 Others -----    r w x
+
+    rw-  rw- r--
+
+    110  110 100
+    6    6   4 
+
+8. Change the permission of the file for a group only as r,w and x.
+      
+
+9. Remove all permissions from the file for the user.
+
+Q.1 Write a shell script program to take two names from user and print full name.
+Q.2 Write a shell script program to take two numbers from user and print its 
+    addition , multiplication, division and subtraction
+
+
+1)  if statement
+
+    if(condition)
+    then
+        statement
+    fi
+
+
+2)  if - else statement
+
+    if statement
+
+    if(condition)
+    then
+        statement
+    else
+        statement    
+
+    fi
+
+
+
+Q.3 Write a program to enter percentage of a student, if percentage is in range 
+
+         percentage>60 and percentage<=70   then print 'C Grade'
+       
+
+Q.4 Display output for following:
+
+    Percentage Range            Output
+    
+    60 to 70               D
+    71 to 80               C
+    81 to 90               B
+    91 to 100              A
+                       
+    else
+                           Fail
+
+Q.5 Make a program to check if any entered number is even or odd
+
+Q.6 Find the largest of three nos entered by user
+
+Q.7 Make an array of three nos and get a no from user , if no is in array,
+    display search successful
+
+Q.8 Print all even numbers of an array
+
+Q.1 10+20=30
+    30+40=70
+    
+    40+60=100
+
+Q.2 Calculate the area of rectangle where l and b should be passed as command line arguments
+
+Q.3 Take any one number as a command line argument and print its square, cube and check if that no is 
+    Even or odd.
+
+Q.4 Read a string from user and print its length.
+   
+    Enter a string : abcd
+    String lenth is:  4
+
+Q.5 Read first name and Last name from user ,print fullname
+    assign fullname in a variable, Extract the last name from
+    the variable.
+    
+    Enter first name :abc
+    Enter last name :def
+    full name :abc def
+    
+    last name should be printed  : def
+
+Q.6 take radius of circle as a command line argument and print area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

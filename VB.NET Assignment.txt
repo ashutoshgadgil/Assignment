@@ -1,0 +1,566 @@
+
+
+==========================================================================================================================
+				VB.NET FORM BASED 
+
+==========================================================================================================================
+
+
+Q.1 Write a program to Take a temperature value in ferhenite and convert it in celcius.
+    Take one text box only 
+    TextBox background should be skyBlue
+    TextBox ForeColor = Brown
+    Form Background shoul be pink
+
+Q.2 Write a program to create two text boxes . In first text box Input name of the user and 
+   Copy the same name in the second text box.
+
+Q.3 Write a program to Make a label Where label text is "Hello". When you click on Label, Text 
+    will be change to Welcome.
+
+Q.4 Make two text boxes which takes integer values .Divide value in first text box from second text box value.
+    If second text box value is zero then an exception message as Divide by zero error should be shown in the
+    lable in red color
+
+Q.5 Write a program where 3 text boxes are to be displayed . When you enter a value in first text box. The 
+    square of that value is displayed in second text box and the half of that result will be displayed in 
+    third text box. 
+    If the value in first text box is between 10 and 15 then only operations will be performed otherwise will give
+    Exception message
+
+Q.6 Write a program to print the length of entered name in the text box. If the name is null or empty
+    Show the error
+
+Q.7 Write a program to enter a string in first text box and second string in second text box . If 
+    two strings are equal then print Strings are equal or Print strings are not equal.
+
+Q.8 Write a program to take rollno,name,marks of 5 subjects and calculate percentage of the student and all the details
+    of the student should be displayed in other form.
+
+    Roll No    : 101
+    Name       : Amit Kumar
+    Percentage : 90 %
+
+Q.9 Write a Program to enter any color name in a text box. If the entered color id Red , Green Or Blue then Change 
+    Background of the form otherwise Give any Default color as Black with a message as "Invalid color Entered"
+
+Q.1 Write a program to take some string in a textbox and at the same time the length of the string should be
+    displayed in other textbox
+
+Q.2 Write a program to enter a sentence in a text box and count how many words are there in the sentence . The
+    Count of words should be displayed in the second text box.  
+
+Q.3 Write a program to take user name and pasword in textbox.
+    Password length should be maximum of 4 characters. Password content should be displayed as a * symbol
+    Create a Login Button . When you click on the Login Button then UserName and Password fields should be
+    disabled and button should also be disabled.
+    If the password is less than 4 characters it should give exception that Password length should be exact
+    4 characters and the button should not be disabled
+
+Q.4 Write a program to take two values in input box and display the sum in Message box
+
+Q.5 Write a program to create a combo box which takes the courses of an University. On the basis of selected 
+    course you have to display the following  in Text Boxes:
+                            Course Name     : BCA
+                            Course Duration : 3 years
+                            Course Cost     : Rs. 50000 /-
+
+Q.6 Write a Program to create a combo box and a text box. In combo box there are 5 cities. You have to select 
+    a city from the combo box. If the city entered in text box is same as the city selected then display
+    the information about that city Like City name, city area, city Population. Otherwise Print the message as
+    City Selected does not match.
+
+Q.7 Create a combo box where 5 colors will be there and if you select any color then background color 
+    of the form should be changed.
+
+Q.8 Create two comboboxes. In first combobox. take the 5 states name . If you select a state in first combo
+    box then in second combo box all the cities in that state should be shown.
+
+Q.9 Make a Quiz
+
+
+   Who is the Captan of Indian Cricet Team?
+
+   o Rohit Sharma  
+   o Virat Kohli
+
+                    Green Color (If answer is correct)
+
+Q.10 Create two list boxes where first list box contains 5 items and a button when pressed copies the selected element 
+     from first list box to another.
+
+Q.11 Write a program to create a text box which takes a number and create a listbox where table of entered number 
+     is displayed
+
+
+Q.12 Calculate the percentage of a student where marks for 5 subjects to be taken in an array and marks should be enetered
+     in Text Boxes . Display the Result as follows on the same form
+
+      Name, Percentage with grade (3D label)
+
+Q.13 Create three radio buttons and one listbox on a form , When clicked on first radio button list of fruits should be
+     displayed in listbox. When clicked on second radio button List of Colors will be displayed in list box.When clicked
+     on third radio button List of sports should be displayed in the list box
+
+Q.14 Create a program to input your date of birth using DateTimePicker and display you age in years.
+
+Q.15 Display following in this format
+
+     EmpName EmployeeSalary  DateOfJoining  EmployeeExperience  EmpDesignation
+     
+
+     If YoE is < 5 then Designation will be Software Developer
+
+     If YoE is < 10 and > 5 then Designation will be Team Leader
+
+ 
+     Find the maximum salary of the employee 
+
+Q.17 Write a program to create a Form where the Details of an employee is to be taken as follows:
+     
+     Name                 TextBox            Maximum 10 characters are permitted
+     Gender               Radio Button
+     Dob                  DateTimePicker
+     Age                  
+     Lane                 Text Box
+     Country              combobox
+
+     State                Combobox
+
+     City                 ComboBox
+     
+     Skills               Checkbox
+     Describe Yourself    Richtextbox
+
+     Submit               Button
+     Reset                Button
+     Exit                 Button
+
+     
+     
+    After submitting the output should be displayed on other form
+
+    Address is displayed as =       Lane + City + State + Country 
+
+
+Q.1 Write a Program to create a tab control of 2 tabs where first tab is to get the email id from user and second
+    tab to select a language .If clicke on a button in Tab1 , A message Box will show you the Email. If you
+    Select a Language , The new form should display the Language selected.
+
+Q.2 Write a Program to create a tab control where Tabs are as follows :
+    
+    Login     ------------   If Login Credentials are valid then Show the Welcome message with user name
+                             in Message Box
+     
+    Registration  --------   Register User with UserName, Password, City(Combobox)
+                             After Clicking on Register Button , A message "Registered Successfully" 
+                             is Shown on Message Box .
+    
+
+    ShowDetails   --------   Show All the Details in New Form
+
+
+   ToolStripMenu 
+
+   
+Q.3 Create 3 Menus named as Strings, Calculator, Customers (Regular Customer/ Non Regular) and Exit.
+    
+    In String Menu there are 4 options ( ToUpperCase , ToLowerCase, Get Length , String Reverse)
+    In Calculater there are 4 operations ( Add two numbers , Find Factorial, Find Square, Close)
+    In Regular Option there are 2 options Indian , NRI
+    In Non Regular Option there are 2 options Indian , NRI
+    Exit should have only one option Exit.
+
+
+   MDI (Multiple Document Interface)
+
+
+Q.4 Create a Parent form Using MDI application where In form1 Take an input as a Color Name in ComboBox and change
+    the background color of the second form accordingly.
+
+  
+   
+MenuStrip
+WebBrowser
+TabControl
+DataGridView
+TreeView
+ProgressBar
+Timer
+MDI
+
+
+Q.1 Display the output in the form  as follows:
+    
+    ProductID (Label), ProductName(Label), ProductPrice(Label), ProductImage 
+
+Q.2 Create your Resume On Giving Details on a Form 
+
+    NO FIELD SHOULD BE EMPTY
+
+    Name                  TEXTBOX
+    GENDER                RADIOBUTTON
+    DOB                   DATETIMEPICKER
+    Address               RICHTEXTBOX
+    Contact               TEXTBOX
+    HOBBY                 TEXTBOX
+    TECHNICAL SKILLS      CHECKBOX
+    EDUCATIONAL DETAILS   10,12,G,PG (COMBOBOX)   IF YOU SELECT 10TH THEN PERCENTAGE TEXTBOX WILL BE VISIBLE
+    BROWSE PICURE         BUTTON ( OPEN FILE DIALOG)
+    DESCRIBE YOURSELF     MULTILINE TEXTBOX 
+    SUBMIT                BUTTON  
+
+
+Q.2 Create a Class Employee in Console Application. In this class there are member variables as EmpId, EmpName,
+    EmpSalary. Make two functions getDetails() and showDetails() in it. getDetail() will assign values in 
+    members and showDetails() will print the value. Make 3 Objects of the class.
+
+
+Q.3 Create a combobox which contains the path selected 
+
+Q.4 Create a Class Student , Create a Button Show which Shows the student data as Rollno, name, city which is 
+    set in constructor (Show data of one student).
+
+
+Q.5 Create a class named as Operations where two values are taken in two text boxes on the form.
+    Create 4 Buttons ADD, SUB, MUL, DIV . On Clicking any button the Result should be displayed in the
+    3D Label.
+
+
+Q.6 Display the String Hello in the text box at form loading event . When you move your mouse over the text box ,
+    the string in the text box should be capitalized.
+
+Q.1 Write a Program to create an abstract Class Named as Area. Three Classes are inherited from this Abstract
+    Class Where one function draw() is abstract function. Use this function to draw different shapes on the form
+    Inherited Classes are Rectangle, Triangle and circle.
+    Thre are 3 buttons : Draw Rectangle , Draw Triangle, Draw Circle
+
+
+
+=================================================================================================================
+
+                     VB.NET CONSOLE
+=================================================================================================================
+
+Q.1 Write a program to find largest of 3 nos
+
+
+
+Q.2 Write a program to print the description of a Telecom company for the following conditions
+
+Plan   Validity      Benifits (Message to be displayed according to plan and validity)
+------------------------------------
+400    1 month        1 Gb Data/day 
+       2 months       500 MB / day
+       3 months       200 MB /day
+
+500    1 month        2 Gb Data/day 
+       2 months       1 Gb / day
+       3 months       500 MB /day
+
+600    1 month        3 Gb Data/day 
+       2 months       2 Gb / day
+       3 months       1 Gb /day
+
+
+
+Q.3 Write a program to take username and password from user
+
+Check if     user name : Admin1     , Password : 1234      Print message Welcome Admin1
+             user name : Admin2     , Password : 123       Print message Welcome Admin2
+            
+             If above conditions are false then            Print message "You are unauthorised"
+            
+
+Q.4 Take 5 subject marks of a student and calculate 
+    percentage , If percentage lies in the following
+    rages print the Grade
+
+    Per range     ------  Grade 
+    91 - 100               A
+    81 - 90                B
+    71 - 80                C
+    below 71               Fail
+
+Q.5 Write a program to take the following inputs from the user:
+    
+    First Name
+    Last Name
+    Age
+    Address : Flat No, Lane , City , State 
+    mobile No 
+    
+    Do the following operations :
+     
+    If mobile no is less than 10 digits , It will give you error message "enter valid mobile number again"
+
+    1) Display full name in capital case   
+    
+    2) Find length of full name   
+    
+    3) Find City from the Address    
+    
+    4) If City is Pune Display First name with City 
+
+    5) Change the City to Delhi
+    
+    6) Print All Details
+
+Q.6 Print all even nos between 1 and 100 using For Next Loop
+
+Q.7 Print 0 1 1 2 3 5 8 13 
+
+Q.8 Find factorial of number using For Next Loop
+
+
+
+Q.1 Print Alphabets in CAPITAL using while and for loop
+Q.2 Print alphabet in SMALL case in reverse order using for
+Q.3 Input a letter from user in small case and convert it in upper case
+Q.4 Enter a word from user in UPPER CASE and print that word in LOWER CASE.
+Q.5 Print the table of entered no using while loop
+
+Q.6 Write a program to take user name and password and store these details in the variables . 
+    Enter user name and password again  and if the entered details match the previous one then 
+    take the following details from the user and print all details :
+    RollNo, Name , DOB , City (name of the city should be atleast 4 characters) 
+
+    Password length should be atleast 8 characters
+
+Q.7 Write a program to take date of birth of a user and find the age
+Q.8 Write a program to enter date of birth of 3 students and print the age of elder student with name.
+Q.9 Write a program to enter the strike rate of 3 cricket players and find the following :
+    a) Find the maximum score with name of player
+    b) Find the average score
+    c) Find the minimum score with name of player
+Q.10 Create an array of 5 numbers and Search the number entered by user. If it is found the display
+    search successful , If not found display Search Unsuccessful
+
+    dim a() as integer ={1,2,3,4,5}  
+    
+
+Q.1 Make two 3 by 3 Matrices and print the sum of matrices
+Q.2 Create a 2 by 4 matrix and print the matrix with every element multiplied by 2
+Q.3 Write a 3 by 3 matrix where the output will be as follows :
+    
+    A B C
+    D E F
+    G H I
+Q.4 Enter elements of a  3 by 3 matrix from user and print it.
+Q.5 Create a 3 by 3 matrix of even numbers and print its inverse matrix
+Q.6 Create a 3 by 2 matrix and print the sum of all elements of the matrix
+Q.7 Create a 3 by 3 matrix where every row representing the temperatures of different places in 3 different cities
+    Find the average temperature city wise
+Q.8 Create a 4 by 4 matrix where all the diagonal elements are 1 and rest of the elements are 0 and print the sum 
+    of diagonal elements.
+
+    Input
+ 
+    10 20 30 40
+    50 60 70 80
+    90 3  3  10
+    2  3  4   5
+
+    Output
+
+    1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 1
+
+Q.9 Make one d  array of 8 elements and print it in reverse order
+
+Q.10 Using Jagged array store the rollno , age and Percentage of 5 students and display.
+     Find the average of percentage.
+Q.11 Write a program to sort the array of alphabets. {d,c,f,g} 
+
+Q.1 Write a program to overload a function printString()
+    1) printString() ---- will print default message
+    2) printString() ---- will accept a string and print that
+    3) printString() ---- will accept two strings and concatenate two strings
+    4) printString() ---- will accept a string and count the no of characters
+    5) printString() ---- will reverse a string
+
+Q.2 Write a program to create a function which takes an argument as a string and returns a reverse string.
+
+Q.3 Write a program to check if a string is a palindrome or not.
+
+    abc ------------- cba (not a palindrome)
+    aba -------------      palindrome
+
+Q.4 Accept a string from user and count how many vovels are there
+    in the string.
+
+Q.5 Accpet a sentence from user and count how many times the letter
+    'A' or 'a' is repeated.
+
+Q.6 Display the following output
+
+   -----------------------------------------------------------------
+    RollNo    Name      Stream (BCA/BSC)  m1 m2 m3 m4 m5  Per  Grade
+   -----------------------------------------------------------------
+
+    101       abc         BCA             78 66 89 55 99  78    C    
+
+Q.7 Write a program to enter the input for an Employee 
+    like EmpId, EmpName, EmpSalary for 5 Employees using 
+    Array of Objects concept and print the details of all Employees.
+
+    Sort all the names of the employees alphabetically
+    Print all names in descending order also
+    Print the highest salary of an employee
+    
+
+Q.1 Write a program where make a class :   Area
+    functions are :     getAreaofCircle()
+                        getAreaOfRectangle()
+                        getAreaOfTriangle()
+
+Q.2 Make a Class  :  Account
+    make methods as 
+    getDetails()  -----  cid , cname , TotalAmt
+    withdraw()  ----- will accept amt to be witdrawn
+                      if TotalAmt less than 5000, then you can 
+                      not withdraw. else you can withdraw
+    deposit()------  will accept amount to be deposited
+    ShowAccount()----- Show all the updated details 
+
+
+
+Enter cid
+Enter name
+Enter Total amount
+
+Enter amount to be withdrawn
+2000
+
+3000
+
+4000
+
+7000
+
+Q.3 Write a program to create  parameterised  constructor which accepts the radius of the circle and calculate the area
+    Make a same circle which has the same are as that of the first circle.
+
+Q.4 Do the following operations in a class :
+    Press 1 : Calculate average age of 5 objects
+    Press 2 : Show only even nos between 1 and entered number
+    Press 3 : check any no is Even or odd
+    Press 4 : Find the maximum of 5 nos.
+    Press 5 : calculate the power of enterd number
+    Press 6 : Take a string from user and reverse it.
+
+    Press any other no , will give Invalid output.
+
+Q.1 Write a Program to make a class Bank which is the abstract class and has a method which is incomplete named as
+getRateOfInterest().  
+Make three class SBI,BOI,PNB which implements the methods of Bank and SBI returns rate of interest as 4 %
+BOI return 5 % , PNB returns 6 % and show all rate of interests returned by individual banks.
+
+
+Q.2 Create an abstract class ,make an abstract function and inherit that class.
+
+Q.3 Create a base class and inherit two classes from it.
+
+Q.4 Create a class and make an anonymous object of that class and call the function of that class using
+    anonymous object.
+
+Q.5 make a class which can not be inherited.
+
+Q.6 Write a program to take age of 3 students in a class , If the age of any student is less than 1 year then 
+    throw an exception and print the exception message. If age is not less than 1 then get the average age and 
+    print it.
+
+Q.7 Write a program to take a user name in the class and if user name is NULL then an exception should be
+    thrown.
+
+
+                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+     
+            

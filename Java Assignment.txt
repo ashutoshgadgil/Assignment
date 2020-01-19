@@ -1,0 +1,224 @@
+Q.1 Write a program to create two objects of a class named as Numbers. In which there is a
+    function getMax(). Assign a value for a number to every object and compare two objects 
+    together and print the maximum value.
+
+Q.2 Write a program to make a class as Factorial where calculate the factorial in a function
+    the function returns the factorial of the passed number to this function. Print the factorial
+    of the number.
+
+Q.3 Create a Class Alphabets which is printing Capital case alphabets in its member method.
+    Create another Class where a main function resides. In main method create the object of 
+    Alphabets class and call the method which is printing alphabets.
+
+Q.4 Write a program to create a method in a class which takes the first name as first parameter
+    and last name as second parameter. This method returns the full name. Print full name.
+
+Q.5 Write a program to overload a method named as getResult() 3 times , first definition prints
+   the cube of passed number. Second function prints square of passed number. Third definition
+   print that number.
+
+Q.6 Write a program to find the sum of digits of a number.
+
+Q.7 Write a program to print the reverse of a number. Number should be passed in a method. 
+
+Q.8 Write a program to compare two numbers . 
+    Create first function which returns a number.
+    Create second function which returns a number.
+    Compare the returned values from the function.
+    Whichever is a greater number . Print it.
+
+Q.9 Make a program to calculate Area of Rectangle where Getter and Setter methods are defined.
+
+Q.10 Display the following Pattern :
+      
+       1
+       1 2
+       1 2 3
+       1 2 3 4
+       1 2 3 4 5
+
+Q.11 Create a program to calculate the area of circle where one constructor is default which sets the values of radius and pi.
+     Second constructor which only gets the value of radius and pi. Create two Objects to find the area of each circle.
+     Third Constructor will copy the area of first object to the third object.
+
+Q.12 create a class Result where marks of 5 subjects are taken from user in a method as InputMarks() and print the percentage and
+     grade based on percentage in a different method as ShowPercentage().
+     Print the Highest and Lowest Marks in a subject.
+
+
+Q.1 Write a program to declare a sring object using literal and assign a string "Hello"
+    in it. Print the Hello using charAt() method in Capital Case.
+
+Q.2 Write a program to print the length of a string without using length attribute.
+
+Q.3 Take user name and password from user.If user name is "admin" and password is "Abcd1234" then print
+    Welcome UserName . Compare userName using equalIgnoreCase(). Compare password without using 
+    equalIgnoreCase()
+
+Q.4 Declare a string as "Welcome to Java Programming" , Print "Java" from this String. 
+
+Q.5 Write a program to reverse the entered string without using reverse method.
+
+Q.6 Make an array of 5 integers and print elements in reverse order.
+
+Q.7 Make an array of 10 numbers and print the sum of all even elements.
+
+Q.8 Make an array of 3 integers and find the maximum of 3 nos and print it.
+
+Q.9 Make an array of 5 integers and check any enetered no exists in the array or not.If Exists then
+
+    print the array element with position of the element in the array.
+
+Q.10 Write a program to pass an array of 5 nos in a Member method of a class and the method is 
+     returning the array which has the square of every number from first array.
+
+Q.11 Write a program to pass an array of 5 nos in a method and method returns the average of elements
+     in the array.
+
+Q.12 Write a program to pass an array [1,2,3,4,5] in the method . Method will return the following 
+     result : 
+              1 ^ 2 + 2 ^ 2 + 3 ^ 2 + 4 ^ 2 + 5 ^ 2
+
+Q.1 Make a class Employee in which a method sets the name,age,salary of 3 employees. 
+    Make a method comapareSalary() which returns the object which has set the salary as maximum.
+
+Q.2 Create an interface Area which has a method getArea(). 
+    Create 3 Classes circle, Triangle, Rectangle which are implementing the method. Calculate the area and show
+    it.
+
+Q.3 Create an Abstract Class student which has an abstract method showDetails().
+    Create an interface Marks which has a variable TotalMarks=500 and a method getMarks().
+    Create a Class Result which extends student class and implements Marks interface.
+    In Result class calculate the Percentage of a student and Print Result.
+
+Q.4 create a final class in which a method Factorial() returns the factorial of the passed number.
+    Make another class where factorial is to be displayed in a method showFactorial()
+
+Q.5 Write a program to take user name and password in a method of the class .
+    For example Password taken is "abcd1234" then password should be stored in a variable like "bcde2345"
+
+Q.1 Write  a program to create a class Student.Define rollno,name and age in it.
+    Make 3 methods inside class Student.
+    Make 6 methods in it. getRoll(), getName(), getAge(), setRoll(), setName(), SetAge()
+    In first 3 methods show all details from user.
+    In last 3 methods get all details from user.
+
+Q.2 Write a program to Make a class Numbers which has a method getNumbers() which takes two numbers from
+    user. Create another class Addition which inherits class Numbers and does Addition of two numbers in 
+    a method calculate() and print the addition.
+
+Q.3 Create an abstract class Hello which has a method showMsg() , Another class Message derives the abstract
+    class and implements the method showMsg() in it. Call the showMsg() method in the main and print it.    
+    
+
+
+
+    NullPointerException e=new NullPointerException();
+
+Q.1 Create your Exception class named as PasswordLengthException and take username and password from the
+    user . If the length of the password is less than 8 characters then throw the PasswordLengthException 
+    on giving a message as "Password is too short" otherwise Show the message as "Welcome UserName".
+
+Q.2 Create a class named as Message which has 3 methods.
+    method1(), method2(), method3()
+    method1() is called from main() , which takes two numbers as parameters .
+    method2() is called inside method1() and method3() is called inside method2().
+    In method3() divide the first parameter with second parameter which is passed to method1
+    Handle the Arithmatic Exception
+     
+Q.3 Make a Program in which a class has a method which has a try block with 3 catch blocks.
+    First catch block should handle NullPointerException
+    Second CatchBlock should handle a Custom Exception
+    Third CatchBlock should handle ArrayIndexOutOfBoundsException
+
+Q.4 Create a class User in which create a method getDetails() .In this method take DeptID and 
+    DeptName. Use nested try catch in this method .
+    Outer try block will check if the UserId is zero then an exception will be thrown
+    Inner catch block will check if DeptName is Null then a NullPointerException is thrown
+
+
+Q.5 Create a class where a method getName() is defined in which read the full name by the user
+    and print the FirstName and LastName , Use StringTokenizer Class
+
+Q.6 Create a two Thread classes where object of first class is printing alphabets and object of second
+    thread class is printing Even nos between 1 and 50.
+
+Q.1 Write a program to create a Thread class which implements the Runnable interface 
+    create 3 objects of the thread class and Print the name of 3 threads in run()
+
+Q.2 Write a program to set the name , priority of 2 threads and show the name and priority.
+
+Q.3 Create a thread class and create 2 thread objects are created . One object is printing
+    Even numbers and other object is printing odd numbers.
+
+Q.4 Create a program to make a thread class . Create 2 Thread objects.
+    First thread object assigns values from 1 to 10 in an array 
+    Second thread object prints the array values.
+
+Q.5 Create an ArrayList of Names and do the following operations on the list :
+    1) Create a list of 5 names
+    2) update the 4th element in the list and display the list.
+    3) Retrieve the 3rd element in the list and display it.
+    4) Display the list in the reverse order
+    5) Count the names and display the count
+    6) Find the index of 3rd element
+    7) Remove the first element
+    8) Iterate the list using for each loop
+    9) Display all the list elements in uppercase   
+
+Q.1 Make an arraylist of 5 numbers. Copy the square of each element in arraylist1 to
+    arraylist2.
+Q.2 Craete a linked list of 5 integers .
+    Take a number from user to be deleted from the list.
+    Print the element which is removed from list and print the list.
+
+  Output :   
+    Link list : 100 200 300 400
+    Enter a number to be deleted : 100
+    100 is deleted
+    200 300 400
+
+Q.3 Create a linked list of alphabets and display the linked list and display the sorted list.
+    
+
+Q.4 Create two linked list . first list contains 5 names. Second list should copy the first list.
+
+Q.5 Create a linked list of 5 numbers and print the average of 5 numbers.
+
+Q.6 Create a linked list of 5 strings and join all strings using join method for example
+     
+    Welcome*to*Java*Programming
+
+
+Q.1 Write a program to add Marks of 5 students in the set and sort the marks and display it.
+
+D:\app\client\Digit-IT\product\12.1.0\client_1\sqldeveloper\sqldeveloper\bin
+ 
+Q.2 Write a program to create a HashMap of 5 items where Student Rollno and Percentage should be
+    stored as the records. Find the Percentage of the student where rollno is taken by user.
+
+Q.3 Create a linked list of 5 strings . Create another linked list which copies the string from 
+    first list and converts in Uppercase. Display the second Linked list.
+
+Q.4 Create a linked List of 5 integers and display the sum of all elements of linked list.
+    Display the last element, Find the size of list, Display list in reverse order.
+
+Q.5 Create a linked list of 5 names and copy all names in second list where names in second list 
+    will be stored in reverse manner.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
