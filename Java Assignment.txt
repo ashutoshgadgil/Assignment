@@ -206,6 +206,21 @@ Q.4 Create a linked List of 5 integers and display the sum of all elements of li
 Q.5 Create a linked list of 5 names and copy all names in second list where names in second list 
     will be stored in reverse manner.
     
+Q.1 Create a file where marks of 5 subjects has been written.Create another file in which
+    Average of marks to be written .
+
+Q.2 Create a file numbers.txt in which numbers from 1 to 10 is to be written. Check all nos from 
+    file and print only even nos on the output screen.
+
+Q.3 Create a program to create a file in which a list of 5 items should be written.
+
+Q.4 Create a class Result. Create array of objects where 3 student names and marks of 
+    5 subjects should be taken. Find the percentage for 3 students and write the name with 
+    percentage for every student in the file. 
+
+
+
+
 
 
 
